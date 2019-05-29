@@ -43,6 +43,7 @@ _Exploratory Data Analysis_
 
 5. We also found that income does not vary widely with gender.
 6. Single employees have income lower than those of married and divorced ones – probably because single employees are in young and thus in the initial stages of their careers.
+
 ![](PCA%20Images/Gender_and%20Marital_Income.png)
 
 
