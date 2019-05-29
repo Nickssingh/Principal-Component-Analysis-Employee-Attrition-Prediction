@@ -35,4 +35,5 @@ _Exploratory Data Analysis_
 8. Research Director and Manager have the highest income levels, and Research Scientist, Laboratory Technician, and Sales Representatives have lowest income levels.
 
 _Machine Learning Models with and without Principal Component Analysis_
+
 As mentioned in the goal, we developed 5 models. We developed a set of these 5 models without PCA and the other set with PCA. Then, we compared the results in the two sets, using train time and accuracy.
