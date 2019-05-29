@@ -38,4 +38,15 @@ _Machine Learning Models with and without Principal Component Analysis_
 
 As mentioned in the goal, we developed 5 models. We developed a set of these 5 models without PCA and the other set with PCA. Then, we compared the results in the two sets, using train time and accuracy.
 
-ROC Curves
+- ROC Curves
+
+- Accuracy
+
+- Train Time
+
+As shown above, the impact of PCA on Logistic Regression, KNN, and SVM was in alignment without our expectations – decrease in train time with negligible to small compromise on accuracy; the expected change in accuracy was not huge because the features, after reducing the number of variables using PCA, were good enough to explain 95% of the variation. However, the impact on Naive Bayes and Decision Tree was interesting.
+
+- Naive Bayes
+
+Impact on Naive Bayes was positive: computation time declined and accuracy increased. The performance of Naive Bayes classifier can be improved using preprocessing techniques, of which PCA is one. Correlated features can have a negative impact on Naive Bayes. PCA improves both accuracy and computational efficiency of Naive Bayes, as PCA tries to find uncorrelated variables and (depending upon the variation that needs to be retained) reduces number of features.
+
