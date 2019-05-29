@@ -14,8 +14,8 @@ _Dataset Description_
 _Data Cleaning_
 
 1. We did not have any missing values within the dataset.
-![](PCA%20Images/MissingValues.png)
 
+![](PCA%20Images/MissingValues.png)
 
 2. We mapped the yes/no in the target variable – Attrition – to 1/0.
 
