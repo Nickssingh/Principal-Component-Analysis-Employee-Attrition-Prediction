@@ -44,6 +44,7 @@ As mentioned in the goal, we developed 5 models. We developed a set of these 5 m
 ![](PCA%20Images/Accuracy.png)
 
 ###### Train Time
+![](PCA%20Images/Train%20Time.png)
 
 As shown above, the impact of PCA on Logistic Regression, KNN, and SVM was in alignment without our expectations – decrease in train time with negligible to small compromise on accuracy; the expected change in accuracy was not huge because the features, after reducing the number of variables using PCA, were good enough to explain 95% of the variation. However, the impact on Naive Bayes and Decision Tree was interesting.
 
