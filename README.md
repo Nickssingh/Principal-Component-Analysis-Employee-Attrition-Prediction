@@ -39,6 +39,11 @@ _Machine Learning Models with and without Principal Component Analysis_
 As mentioned in the goal, we developed 5 models. We developed a set of these 5 models without PCA and the other set with PCA. Then, we compared the results in the two sets, using train time and accuracy.
 
 - ROC Curves
+![](PCA%20Images/LogisticRegression.png)
+![](PCA%20Images/DecisionTree.png)
+![](PCA%20Images/KNN.png)
+![](PCA%20Images/NaiveBayes.png)
+![](PCA%20Images/SVM.png)
 
 - Accuracy
 ![](PCA%20Images/Accuracy.png)
