@@ -20,4 +20,5 @@ _Data Cleaning_
 
 _Exploratory Data Analysis_
 
-1. We can observe that ‘Attrition = 1’ is just 1/6th of ‘Attrition=0’; only 16% of the entire dataset is ‘0’. Thus, this is an unbalanced dataset. However, as we are focusing majorly on understanding the impact of PCA, we will not focus on methods needed to deal with unbalanced data (we have already discussed in one of the other repositories (https://github.com/Nickssingh/SMOTE-Unbalanced-Data-Bank Marketing/blob/master/Bank%20Marketing-Call%20Response%20Prediction.Rmd) how SMOTE can be used to deal with imbalance in data)
+1. We can observe that ‘Attrition = 1’ is just 1/6th of ‘Attrition=0’; only 16% of the entire dataset is ‘0’. Thus, this is an unbalanced dataset. However, as we are focusing majorly on understanding the impact of PCA, we will not focus on methods needed to deal with unbalanced data (we have already discussed in one of the other repositories (https://github.com/Nickssingh/SMOTE-Unbalanced-Data-Bank Marketing/blob/master/Bank%20Marketing-Call%20Response%20Prediction.Rmd) how SMOTE can be used to deal with imbalance in data).
+2. It appears that among the employees who discontinued, frequent travel is comparatively a larger portion of the group.
