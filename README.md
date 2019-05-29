@@ -41,7 +41,7 @@ As mentioned in the goal, we developed 5 models. We developed a set of these 5 m
 ###### ROC Curves
 
 ###### Accuracy
-![](PCA Images/Accuracy.png)
+![](PCA%20Images/Accuracy.png)
 
 ###### Train Time
 
