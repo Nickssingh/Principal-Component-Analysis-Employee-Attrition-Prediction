@@ -14,3 +14,6 @@ _Dataset Description_
 _Data Cleaning_
 
 - We did not have any missing values within the dataset.
+- We mapped the yes/no in the target variable – Attrition – to 1/0.
+- We dropped the ‘EmployeeNumber’ as it does not have any impact.
+- Further, after looking at the distribution of the numerical variables, we observed that ‘EmployeeCount’ and ‘StandardHours’ are constants; hence, we will drop these columns as well.
