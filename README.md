@@ -84,3 +84,6 @@ Impact on Naive Bayes was positive: computation time declined and accuracy incre
 
 Impact of PCA on decision tree was negative: both computation time and accuracy suffered. Though the number of nodes did not change by huge amount (Before PCA: 237 & After PCA: 227), the depth of the tree increased quite visibly (Before PCA:14 & After PCA:23).
 
+![](PCA%20Images/Tree_NoPCA.png)
+
+![](PCA%20Images/Tree_PCA.png)
