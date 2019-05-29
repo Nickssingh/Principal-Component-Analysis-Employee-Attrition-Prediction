@@ -14,25 +14,36 @@ _Dataset Description_
 _Data Cleaning_
 
 1. We did not have any missing values within the dataset.
+![](PCA%20Images/MissingValues.png)
+
 2. We mapped the yes/no in the target variable – Attrition – to 1/0.
-3. We dropped the ‘EmployeeNumber’ as it does not have any impact.
+
+3. We dropped ‘EmployeeNumber’ as it does not have any impact.
+
 4. Further, after looking at the distribution of the numerical variables, we observed that ‘EmployeeCount’ and ‘StandardHours’ are constants; hence, we dropped these columns as well.
 
 _Exploratory Data Analysis_
 
 1. We can observe that ‘Attrition = 1’ is just 1/6th of ‘Attrition=0’; only 16% of the entire dataset is ‘0’. Thus, this is an unbalanced dataset. However, as we are focusing majorly on understanding the impact of PCA, we will not focus on methods needed to deal with unbalanced data (we have already discussed in one of the other repositories (https://github.com/Nickssingh/SMOTE-Unbalanced-Data-Bank Marketing/blob/master/Bank%20Marketing-Call%20Response%20Prediction.Rmd) how SMOTE can be used to deal with imbalance in data).
+![](PCA%20Images/Attrition.png)
 
 2. It appears that among the employees who discontinued, frequent travel is comparatively a larger portion of the group.
+![](PCA%20Images/Travel.png)
 
 3. We can see that among the employees who discontinued, the higher end of Monthly Income is comparatively sparse, and we visualized this information much more effectively using Kernel Density Estimate (KDE) plots.
+![](PCA%20Images/Monthly_Income_Distribution.png)
+![](PCA%20Images/Monthly_Income_KDE.png)
 
 4. The proportion of employees from sales department seems to be higher among those who discontinued.
+![](PCA%20Images/Department.png)
 
 5. We also found that income does not vary widely with gender.
 6. Single employees have income lower than those of married and divorced ones – probably because single employees are in young and thus in the initial stages of their careers.
+![](PCA%20Images/Gender_and_Marital_Income.png)
 
 7. Employees from different education fields seem to have similar income levels; Nonetheless, it can be noted that employees from Life Sciences and Medical background have more number of outliers.
 8. Research Director and Manager have the highest income levels, and Research Scientist, Laboratory Technician, and Sales Representatives have lowest income levels.
+![](PCA%20Images/Education_and_Job_Role_Income.png)
 
 _Machine Learning Models with and without Principal Component Analysis_
 
