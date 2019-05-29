@@ -38,11 +38,11 @@ _Machine Learning Models with and without Principal Component Analysis_
 
 As mentioned in the goal, we developed 5 models. We developed a set of these 5 models without PCA and the other set with PCA. Then, we compared the results in the two sets, using train time and accuracy.
 
-- ROC Curves
+###### ROC Curves
 
-- Accuracy
+###### Accuracy
 
-- Train Time
+###### Train Time
 
 As shown above, the impact of PCA on Logistic Regression, KNN, and SVM was in alignment without our expectations – decrease in train time with negligible to small compromise on accuracy; the expected change in accuracy was not huge because the features, after reducing the number of variables using PCA, were good enough to explain 95% of the variation. However, the impact on Naive Bayes and Decision Tree was interesting.
 
