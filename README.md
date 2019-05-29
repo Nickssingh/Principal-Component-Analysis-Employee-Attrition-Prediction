@@ -28,22 +28,27 @@ _Exploratory Data Analysis_
 ![](PCA%20Images/Attrition.png)
 
 2. It appears that among the employees who discontinued, frequent travel is comparatively a larger portion of the group.
+
 ![](PCA%20Images/Travel.png)
 
 3. We can see that among the employees who discontinued, the higher end of Monthly Income is comparatively sparse, and we visualized this information much more effectively using Kernel Density Estimate (KDE) plots.
 ![](PCA%20Images/Monthly_Income_Distribution.png)
 ![](PCA%20Images/Monthly_Income_KDE.png)
 
+
 4. The proportion of employees from sales department seems to be higher among those who discontinued.
 ![](PCA%20Images/Department.png)
+
 
 5. We also found that income does not vary widely with gender.
 6. Single employees have income lower than those of married and divorced ones – probably because single employees are in young and thus in the initial stages of their careers.
 ![](PCA%20Images/Gender_and_Marital_Income.png)
 
+
 7. Employees from different education fields seem to have similar income levels; Nonetheless, it can be noted that employees from Life Sciences and Medical background have more number of outliers.
 8. Research Director and Manager have the highest income levels, and Research Scientist, Laboratory Technician, and Sales Representatives have lowest income levels.
 ![](PCA%20Images/Education_and_Job_Role_Income.png)
+
 
 _Machine Learning Models with and without Principal Component Analysis_
 
