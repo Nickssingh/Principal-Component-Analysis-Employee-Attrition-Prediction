@@ -86,4 +86,5 @@ Impact of PCA on decision tree was negative: both computation time and accuracy 
 
 ![](PCA%20Images/Tree_NoPCA.png)
 
+
 ![](PCA%20Images/Tree_PCA.png)
